@@ -1,4 +1,3 @@
-// src/components/Cart.jsx
 import React from 'react';
 
 const Cart = ({ cartItems, removeFromCart }) => {
@@ -6,7 +5,7 @@ const Cart = ({ cartItems, removeFromCart }) => {
 
   return (
     <div className="mt-4">
-      <h2>Carrito de compras</h2>
+      <h2>Carro de compras</h2>
       <ul className="list-group">
         {cartItems.map((item, index) => (
           <li key={index} className="list-group-item d-flex justify-content-between align-items-center">

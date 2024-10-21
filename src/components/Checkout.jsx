@@ -1,4 +1,3 @@
-// src/components/Checkout.jsx
 import React from 'react';
 
 const Checkout = ({ cartItems, onBack }) => {
