@@ -6,7 +6,7 @@ const Checkout = ({ cartItems, onBack }) => {
 
   return (
     <div className="container">
-      <h1 className="mt-4">Resumen de Compra</h1>
+      <h1 className="mt-1">Resumen de Compra</h1>
       <ul className="list-group">
         {cartItems.map((item, index) => (
           <li key={index} className="list-group-item">
@@ -18,7 +18,7 @@ const Checkout = ({ cartItems, onBack }) => {
       <button className="btn btn-primary mt-3 mx-2" onClick={onBack}>
         Volver al Carrito
       </button>
-      <button className="btn btn-success mt-3 mx-2" onClick={() => alert('Pago procesado!')}>
+      <button className="btn btn-dark mt-3 mx-2" onClick={() => alert('Pago procesado!')}>
         Pagar
       </button>
     </div>
