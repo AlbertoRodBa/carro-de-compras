@@ -15,10 +15,10 @@ const Checkout = ({ cartItems, onBack }) => {
         ))}
       </ul>
       <h2 className="mt-3">Total: ${total}</h2>
-      <button className="btn btn-primary mt-3" onClick={onBack}>
+      <button className="btn btn-primary mt-3 mx-2" onClick={onBack}>
         Volver al Carrito
       </button>
-      <button className="btn btn-success mt-3" onClick={() => alert('Pago procesado!')}>
+      <button className="btn btn-success mt-3 mx-2" onClick={() => alert('Pago procesado!')}>
         Pagar
       </button>
     </div>

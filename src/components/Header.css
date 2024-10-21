@@ -1,0 +1,9 @@
+/* src/components/Header.css */
+.header {
+    position: fixed; /* Mantiene el header en la parte superior */
+    top: 0; /* Alinea el header en la parte superior de la página */
+    left: 0; /* Alinea el header a la izquierda */
+    right: 0; /* Alinea el header a la derecha */
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+  }
+  
