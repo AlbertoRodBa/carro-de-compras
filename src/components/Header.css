@@ -6,4 +6,21 @@
     right: 0; /* Alinea el header a la derecha */
     z-index: 1000; /* Asegura que esté por encima de otros elementos */
   }
+
+
+  .logo {
+    width: 90px; /* Cambia este valor al tamaño deseado */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin-bottom: 2px; /* Espacio entre el logo y el título */
+  }
+  
+  
+  /* Puedes agregar padding-top al contenedor principal en App.jsx */
+  .container {
+    padding-top: 150px; /* Ajusta este valor según la altura de tu header */
+  }
+
+  .custom-header {
+    background-color: #007bff; /* Color primario de Bootstrap */
+  }
   

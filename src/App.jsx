@@ -48,7 +48,7 @@ const App = () => {
   return (
     <div className="container">
       <Header /> {/* Aquí se añade el Header */}
-      <h1 className="mt-4">Tienda</h1>
+      <h1 className="mt-4 text-center">Ropa Deportiva</h1>
       {isCheckout ? (
         <Checkout cartItems={cart} onBack={goBackToCart} />
       ) : (

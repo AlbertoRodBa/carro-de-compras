@@ -1,12 +1,12 @@
 // src/components/Header.js
 import React from 'react';
-import './Header.css'; // Asegúrate de tener el CSS importado
+import './Header.css';
+import logo from '../assets/logo.png'; // Ajusta la ruta según donde tengas el logo
 
 const Header = () => {
   return (
-    <header className="header bg-primary text-white text-center py-3">
-      <h1>Tienda XYZ</h1>
-      <p>Lo Mejor Para Ti</p>
+<header className="header custom-header text-white text-center py-3">
+<img src={logo} alt="Logo de la Tienda" className="logo" /> {/* Agrega el logo */}
     </header>
   );
 };

@@ -11,7 +11,7 @@ const Cart = ({ cartItems, removeFromCart }) => {
         {cartItems.map((item, index) => (
           <li key={index} className="list-group-item d-flex justify-content-between align-items-center">
             {item.name} - ${item.price}
-            <button className="btn btn-danger btn-sm" onClick={() => removeFromCart(item)}>
+            <button className="btn btn-primary btn-sm" onClick={() => removeFromCart(item)}>
               Eliminar
             </button>
           </li>
